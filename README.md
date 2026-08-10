@@ -5,7 +5,7 @@ Proteus simulation of an expandable digital object counter using a 555 timer, CD
 
 A Proteus-based digital electronics simulation that counts object-detection events and displays the current count on a seven-segment display. The design combines a 555 timer, CD4518 BCD counter, CD4511 BCD-to-seven-segment driver, and supporting logic.
 
-> This repository is an academic simulation project from 2022. The repository contains of the circuit images, and demonstration media.
+> This repository is an academic simulation project from 2022. The repository contains of the circuit images, and demonstration video.
 
 ## Technologies and Components
 
