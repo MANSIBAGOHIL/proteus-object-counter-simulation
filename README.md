@@ -48,7 +48,7 @@ For the Proteus demonstration, I replaced the phototransistor input with a push 
 ## Viewing the Demonstration
 
 - Watch the demonstration: [`demo/versatile-object-counter-demo.mp4`](demo/versatile-object-counter-demo.mp4)
-- View the simulated circuit: [`images/circuit-diagram.png`](images/circuit-diagram.png)
+- View the simulated circuit: [`circuit-diagram`](Images/circuit_diagram.png)
 
 ## What I Learned
 
