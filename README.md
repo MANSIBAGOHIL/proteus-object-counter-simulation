@@ -5,7 +5,7 @@ Proteus simulation of an expandable digital object counter using a 555 timer, CD
 
 A Proteus-based digital electronics simulation that counts object-detection events and displays the current count on a seven-segment display. The design combines a 555 timer, CD4518 BCD counter, CD4511 BCD-to-seven-segment driver, and supporting logic.
 
-> This repository preserves an academic simulation project from 2022. The original editable Proteus project file is not currently available, so the repository contains the circuit images, and demonstration media that remain from the project.
+> This repository is an academic simulation project from 2022. The repository contains of the circuit images, and demonstration media.
 
 ## Technologies and Components
 
@@ -33,26 +33,24 @@ In the intended physical design, an object interrupts an infrared beam between a
 
 The NE555 is configured as a monostable multivibrator and generates a pulse of approximately 330 ms. That pulse clocks the CD4518 counter. The counter produces a BCD value, and the CD4511 converts that value into the segment signals required by the seven-segment display.
 
-For the Proteus demonstration, we replaced the phototransistor input with a push button so that each simulated object-detection event could be triggered manually.
+For the Proteus demonstration, I replaced the phototransistor input with a push button so that each simulated object-detection event could be triggered manually.
 
 ## Simulation Process
 
-1. We studied the NE555 timer, CD4518 counter, and BCD-to-seven-segment conversion stage.
-2. We recreated the counter circuit in Proteus.
-3. We substituted a push button for the unavailable phototransistor model/input during simulation.
-4. We configured the NE555 as a monostable pulse generator.
-5. We connected the timer output to the CD4518 clock input.
-6. We used the CD4511 instead of the 74LS47 from the reference circuit because the CD4511 produced the required simulated output with the selected display arrangement.
-7. We triggered the input and observed the displayed count increase.
+1. Studied the NE555 timer, CD4518 counter, and BCD-to-seven-segment conversion stage.
+2. Recreated the counter circuit in Proteus.
+3. Substituted a push button for the unavailable phototransistor model/input during simulation.
+4. Configured the NE555 as a monostable pulse generator.
+5. Connected the timer output to the CD4518 clock input.
+6. Used the CD4511 instead of the 74LS47 from the reference circuit because the CD4511 produced the required simulated output with the selected display arrangement.
+7. Triggered the input and observed the displayed count increase.
 
 ## Viewing the Demonstration
-
-The simulation cannot currently be rerun from this repository because the original editable Proteus project file is unavailable.
 
 - Watch the demonstration: [`demo/versatile-object-counter-demo.mp4`](demo/versatile-object-counter-demo.mp4)
 - View the simulated circuit: [`images/circuit-diagram.png`](images/circuit-diagram.png)
 
-## What We Learned
+## What I Learned
 
 - How a monostable 555 timer can condition an input into a clock pulse
 - How a BCD counter represents decimal counts
