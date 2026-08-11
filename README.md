@@ -1,6 +1,3 @@
-# proteus-object-counter-simulation
-Proteus simulation of an expandable digital object counter using a 555 timer, CD4518 BCD counter, CD4511 display driver, and seven-segment display.
-
 # Versatile Object Counter
 
 A Proteus-based digital electronics simulation that counts object-detection events and displays the current count on a seven-segment display. The design combines a 555 timer, CD4518 BCD counter, CD4511 BCD-to-seven-segment driver, and supporting logic.
